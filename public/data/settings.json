@@ -3,8 +3,8 @@
     "name": "GDG Sweden",
     "url": "https://linkedin.com/company/gdg-sweden"
   },
-  "startDate": "2024-12-013T09:00:00+01:00",
-  "endDate": "2024-12-01T19:00:00+01:00",
+  "startDate": "2025-02-28T09:00:00+01:00",
+  "endDate": "2025-02-28T18:00:00+01:00",
   "webapp": {
     "shortName": "DevFest Stockholm",
     "themeColor": "#673AB7",
@@ -80,20 +80,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "TBD",
+    "name": "Kista",
     "city": "Stockholm",
     "short": "Stockholm",
-    "address": "TBD, Stockholm",
+    "address": "Knarrarnäsgatan 7, 16440 Kista",
     "pointer": {
-      "latitude": 59.329323,
-      "longitude": 18.068581,
+      "latitude": 59.4021106,
+      "longitude": 17.9463932,
       "zoom": 12
     },
     "mapCenter": {
-      "latitude": 59.329323,
-      "longitude": 18.068581
+      "latitude": 59.4021106,
+      "longitude": 17.9463932
     },
-    "description": "Location will be announced soon"
+    "description": "Kista Entré"
   },
   "socialNetwork": {
     "follow": [

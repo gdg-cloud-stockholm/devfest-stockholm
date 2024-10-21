@@ -3,7 +3,7 @@
   "description": "Join the biggest tech community of the Nordic!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "December TBD, 2024",
+  "dates": "February 28, 2025",
   "share": "Share",
   "followUs": "Follow us",
   "emailUs": "Email us",
@@ -20,7 +20,7 @@
   "position": "Position",
   "country": "Country",
   "time": "Time",
-  "faq": "/data/faq.md",
+  "faq": "/data/coc.md",
   "coc": "/data/coc.md",
   "timezoneOffset": "-180",
   "loading": "Loading...",
@@ -60,7 +60,7 @@
         },
         {
           "name": "Call for Papers",
-          "url": "https://sessionize.com/devfest-stockholm-2024/",
+          "url": "https://sessionize.com/devfest-stockholm-2025/",
           "newTab": true
         },
         {
@@ -108,7 +108,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch. Accommodation is NOT included in the ticket price.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -147,7 +147,7 @@
       "description": "We are looking for speakers who want to share their tech knowledge and experience with the community. If you have a topic that you are passionate about, we would love to hear from you.",
       "callToAction": {
         "label": "Submit your talk",
-        "link": "https://sessionize.com/devfest-stockholm-2024/"
+        "link": "https://sessionize.com/devfest-stockholm-2025/"
       }
     }, 
     "close": {
@@ -172,7 +172,7 @@
     "sessions": "Sessions"
   },
   "aboutOrganizerBlock": {
-    "image": "/images/team.jpg",
+    "image": "/images/team.webp",
     "blocks": [
       {
         "title": "Organizer",
