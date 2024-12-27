@@ -88,12 +88,26 @@
       "title": "Facilities Partners"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-323e1.appspot.com/o/images%2Fpeople%2Fwanted.jpg?alt=media&token=aea36205-8795-409e-ac68-2f5543151471",
+          "name": "We are looking for you! Get in touch with us!",
+          "url": "https://docs.google.com/document/d/1Bx9870i77NDLRRT3aP8wrGsGfB3cYoQT"
+        }
+      ],
       "order": 3,
       "title": "Gold Partners"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-323e1.appspot.com/o/images%2Fpeople%2Fwanted.jpg?alt=media&token=aea36205-8795-409e-ac68-2f5543151471",
+          "name": "We are looking for you! Get in touch with us!",
+          "url": "https://docs.google.com/document/d/1Bx9870i77NDLRRT3aP8wrGsGfB3cYoQT"
+        }
+      ],
       "order": 4,
       "title": "Silver Partners"
     },
@@ -635,19 +649,6 @@
         }
       ],
       "title": "Core Team"
-    },
-    {
-      "members": [
-        {
-          "name": "We are looking for you",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-323e1.appspot.com/o/images%2Fpeople%2Fwanted.jpg?alt=media&token=aea36205-8795-409e-ac68-2f5543151471",
-          "socials": [],
-          "order": 0,
-          "title": "We are assembly a committee based on our community members. Get in touch with us if you wanna be part of it!"
-        }
-      ],
-      "title": "Program Committee"
     }
   ],
   "tickets": [
