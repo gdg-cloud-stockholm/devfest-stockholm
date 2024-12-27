@@ -156,9 +156,9 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
           </a>
 
-          <a href$="[[cfpBlock.open.callToAction.link]]" target="_blank" rel="noopener noreferrer">
+          <!-- <a href$="[[cfpBlock.open.callToAction.link]]" target="_blank" rel="noopener noreferrer">
             <paper-button class="buy-button" primary>[[cfpBlock.open.callToAction.label]]</paper-button>
-          </a>
+          </a> -->
         </paper-tabs>
       </app-toolbar>
     `;

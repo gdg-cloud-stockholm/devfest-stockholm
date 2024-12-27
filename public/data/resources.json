@@ -152,11 +152,15 @@
     }, 
     "close": {
       "title": "Call for Papers is now closed 📢",
-      "description": "Thank you for the 100+ submissions. We are currently reviewing all proposals and will anounce the agenda soon. Stay tuned!"
+      "description": "Thank you for the 150+ submissions. We are currently reviewing all proposals and will announce the agenda soon. Stay tuned!"
     },
     "agenda": {
       "title": "Agenda is now available 📢",
-      "description": "Thank you for the 100+ submissions. Agenda is now available. Have a look and plan your day ahead!"
+      "description": "Thank you for the 150+ submissions. Agenda is now available. Have a look and plan your day ahead!",
+      "callToAction": {
+        "label": "View Agenda",
+        "link": "TBD"
+      }
     }
   },
   "team": {

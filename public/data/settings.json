@@ -14,7 +14,7 @@
     "locale": "en-US"
   },
   "hashtag": "DevFestStockholm",
-  "disabledSchedule": false,
+  "disabledSchedule": true,
   "navigation": [
     {
       "route": "home",
