@@ -46,6 +46,12 @@
           "logoUrl": "../images/logos/womentechmakers.svg",
           "name": "Women Techmakers Stockholm",
           "url": "https://developers.google.com/womentechmakers"
+        },
+        {
+          "order": 4,
+          "logoUrl": "../images/logos/fluttervasteras.png",
+          "name": "Flutter Västerås",
+          "url": "https://www.meetup.com/flutter-vasteras-meetup/"
         }
       ],
       "order": 0,
