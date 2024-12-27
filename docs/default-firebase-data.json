@@ -49,7 +49,7 @@
         },
         {
           "order": 4,
-          "logoUrl": "../images/logos/fluttervasteras.png",
+          "logoUrl": "../images/logos/fluttervasteras.svg",
           "name": "Flutter Västerås",
           "url": "https://www.meetup.com/flutter-vasteras-meetup/"
         }
@@ -76,18 +76,37 @@
       "title": "General Partners"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "order": 0,
+          "logoUrl": "../images/logos/umain.svg",
+          "name": "Umain",
+          "url": "https://www.umain.com/"
+        }
+      ],
       "order": 2,
-      "title": "Gold Partners"
+      "title": "Facilities Partners"
     },
     {
       "items": [],
       "order": 3,
-      "title": "Silver Partners"
+      "title": "Gold Partners"
     },
     {
       "items": [],
       "order": 4,
+      "title": "Silver Partners"
+    },
+    {
+      "items": [
+        {
+          "order": 0,
+          "logoUrl": "../images/logos/grafana.svg",
+          "name": "Grafana",
+          "url": "https://www.grafana.com/"
+        }
+      ],
+      "order": 5,
       "title": "Bronze Partners"
     }
   ],
