@@ -49,6 +49,10 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           transition: box-shadow var(--animation);
         }
 
+        .speaker.card {
+          cursor: default;
+        }
+
         .speaker:hover {
           box-shadow: var(--box-shadow);
         }
@@ -198,36 +202,14 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
       <div class="container">
         <template is="dom-repeat" items="[[speakersToRender]]" as="speaker">
-          <a class="speaker card" href$="[[speakerUrl(speaker.id)]]">
+          <div class="speaker card">
             <div relative>
               <lazy-image
                 class="photo"
                 src="[[speaker.photoUrl]]"
                 alt="[[speaker.name]]"
               ></lazy-image>
-              <div class="badges" layout horizontal>
-                <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
-                  <a
-                    class$="badge [[badge.name]]-b"
-                    href$="[[badge.link]]"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title$="[[badge.description]]"
-                    layout
-                    horizontal
-                    center-center
-                  >
-                    <iron-icon icon="hoverboard:[[badge.name]]" class="badge-icon"></iron-icon>
-                  </a>
-                </template>
-              </div>
             </div>
-
-            <lazy-image
-              class="company-logo"
-              src="[[speaker.companyLogoUrl]]"
-              alt="[[speaker.company]]"
-            ></lazy-image>
 
             <div class="description">
               <h2 class="name">[[speaker.name]]</h2>
@@ -248,7 +230,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
                 </a>
               </template>
             </div>
-          </a>
+          </div>
         </template>
       </div>
 
