@@ -3,7 +3,7 @@
   "description": "Join the biggest tech community of the Nordic!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "February 28, 2025",
+  "dates": "February 27-28, 2025",
   "share": "Share",
   "followUs": "Follow us",
   "emailUs": "Email us",
@@ -94,7 +94,7 @@
       },
       "days": {
         "label": "Days",
-        "number": "1"
+        "number": "2"
       },
       "sessions": {
         "label": "Sessions",

@@ -79,7 +79,7 @@
       "items": [
         {
           "order": 0,
-          "logoUrl": "../images/logos/umain.svg",
+          "logoUrl": "../images/logos/umain.png",
           "name": "Umain",
           "url": "https://www.umain.com/"
         }
@@ -91,9 +91,9 @@
       "items": [
         {
           "order": 0,
-          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-323e1.appspot.com/o/images%2Fpeople%2Fwanted.jpg?alt=media&token=aea36205-8795-409e-ac68-2f5543151471",
-          "name": "We are looking for you! Get in touch with us!",
-          "url": "https://docs.google.com/document/d/1Bx9870i77NDLRRT3aP8wrGsGfB3cYoQT"
+          "logoUrl": "../images/logos/devoteam.png",
+          "name": "Devoteam",
+          "url": "https://www.devoteam.com/"
         }
       ],
       "order": 3,
