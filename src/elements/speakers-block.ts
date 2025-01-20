@@ -167,7 +167,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
 
         <div class="speakers-wrapper">
           <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker">
-            <a class="speaker" href$="[[speakerUrl(speaker.id)]]">
+            <div class="speaker">
               <div relative>
                 <lazy-image
                   class="photo"
@@ -192,12 +192,6 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
                 </div>
               </div>
 
-              <lazy-image
-                class="company-logo"
-                src="[[speaker.companyLogoUrl]]"
-                alt="[[speaker.company]]"
-              ></lazy-image>
-
               <div class="description">
                 <text-truncate lines="1">
                   <h3 class="name">[[speaker.name]]</h3>
@@ -206,7 +200,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
                   <div class="origin">[[speaker.country]]</div>
                 </text-truncate>
               </div>
-            </a>
+            </div>
           </template>
         </div>
 
