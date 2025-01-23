@@ -217,7 +217,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
       const availableTicket = this.tickets.data.find((ticket) => ticket.available);
       return (availableTicket || this.tickets.data[0])?.url || '';
     } else {
-      return '';
+      return 'https://billetto.se/en/ticket_buyer/offers/d6834a91-389a-47e0-9c19-f5c47f83bcdb';
     }
   }
 
