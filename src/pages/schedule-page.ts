@@ -22,12 +22,13 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
         }
 
         .container {
-          min-height: 60%;
-          padding: 0;
+          height: 80%;
         }
 
-        .container .agenda {
+        .container iframe {
           width: 100%;
+          height: 100%;
+          border: none;
         }
 
         paper-progress {
@@ -59,9 +60,7 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
       </hero-block>
 
       <div class="container">
-        <img class="agenda" src="/images/agenda/workshop.png" alt="Schedule" />
-        <img class="agenda" src="/images/agenda/conference-morning.png" alt="Schedule" />
-        <img class="agenda" src="/images/agenda/conference-afternoon.png" alt="Schedule" />
+        <iframe src="https://sessionize.com/api/v2/8tl6vei7/view/GridSmart"></iframe>
       </div>
 
       <footer-block></footer-block>
