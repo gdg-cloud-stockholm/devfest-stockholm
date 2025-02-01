@@ -32,14 +32,15 @@ export class CfpBlock extends ThemedElement {
     return html`
       <div class="container">
         <div class="container-narrow">
-          <h1 class="container-title">${cfpBlock.close.title}</h1>
-          <p>${cfpBlock.close.description}</p>
-          <!-- <a href="${cfpBlock.open.callToAction.link}" target="_blank" rel="noopener noreferrer">
+          <h1 class="container-title">${cfpBlock.agenda.title}</h1>
+          <p>${cfpBlock.agenda.description}</p>
+          <!-- <a href="${cfpBlock.open.callToAction.link}" target="_blank" rel="noopener noreferrer"> -->
+          <a href="${cfpBlock.agenda.callToAction.link}" rel="noopener noreferrer">
             <paper-button class="cta-button animated icon-right">
-              <span>${cfpBlock.open.callToAction.label}</span>
+              <span>${cfpBlock.agenda.callToAction.label}</span>
               <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
             </paper-button>
-          </a> -->
+          </a>
         </div>
       </div>
     `;

@@ -159,7 +159,7 @@
       "description": "Thank you for the 150+ submissions. Agenda is now available. Have a look and plan your day ahead!",
       "callToAction": {
         "label": "View Agenda",
-        "link": "TBD"
+        "link": "/schedule"
       }
     }
   },
