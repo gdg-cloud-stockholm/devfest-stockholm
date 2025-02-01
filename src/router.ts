@@ -42,6 +42,13 @@ const ROUTES: Route[] = [
     },
   },
   {
+    path: '/schedule',
+    component: 'schedule-page',
+    action: async () => {
+      await import('./pages/schedule-page.js');
+    },
+  },
+  {
     path: '/sessions',
     redirect: '/schedule',
   },
@@ -70,6 +77,13 @@ const ROUTES: Route[] = [
         },
       },
     ],
+  },
+  {
+    path: 'sessions/:id',
+    component: 'session-page',
+    action: async () => {
+      await import('./pages/session-page.js');
+    },
   },
   {
     path: '/team',
